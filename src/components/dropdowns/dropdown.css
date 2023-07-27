@@ -1,0 +1,24 @@
+.dropdowns {
+  width: 66.25%;
+  height: 16px;
+  flex-shrink: 0;
+  top: 120px;
+  margin: 1.2rem auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 0.3rem;
+}
+.dropdowns select {
+  border: none;
+  outline: none;
+  color: #4b5563;
+  width: 150px;
+  height: 30px;
+  flex-shrink: 0;
+}
+.date_dd,
+.filter_dd {
+  display: flex;
+  align-items: center; 
+}

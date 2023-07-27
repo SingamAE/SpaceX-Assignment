@@ -1,0 +1,51 @@
+.header {
+  width: 250px;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+.header h2{
+    font-size: 18px;
+}
+.details{
+    height: 24px;
+    overflow-y: hidden;
+}
+hr{
+    height: .5px;
+}
+.rocket_img {
+  width: 52px;
+  height: 52px;
+}
+.nasa {
+  width: 16.847px;
+  height: 14px;
+}
+.wiki,
+.utube {
+  width: 16px;
+  height: 16px;
+}
+.status {
+  color: var(--nitro-dark-green, #03543f);
+  text-align: center;
+  font-family: Helvetica Neue;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 13px;
+  border-radius: 20px;
+  background: var(--alert-green, #def7ec);
+  padding: 6px 12px;
+}
+.modal_tabledata{
+    width: 300px;
+}
+.modal_tabledata td{
+    border-bottom: 1px solid #f0f0f3;
+    padding: 5px 1rem;
+    margin:auto;
+    font-size: 12px;
+    text-align: start;
+}
